@@ -1,3 +1,9 @@
 \[
 \lvert \bigcup^n_{i=1}A_i \rvert = \sum_{i=1}^n -\sum_{1\leq i< j\leq n}\lvert A_i \cap A_j\rvert + \dots +(-1)^{k+1}\sum_{I\subset\{1,2,\dots ,n\}\\ |I|=k} \lvert \bigcap_{i\epsilon I}A_i \rvert +\dots +(-1)^{n+1}\rvert \bigcap^n_{i=1}A_i\lvert
+\\
+\text{PROOF:}\\
+\text{n+1: } A_1,\dots ,A_{n+1  } \hspace{1.5em}  \bigcup^{n+1}_{i=1}A_i = \bigcup^{n}_{i=1}A_i \cup A_{n+1} \\
+\lvert \bigcup^{n+1}_{i=1}A_i\rvert = |\bigcup^{n}_{i=1}A_i|+|A_{n+1}|-|\bigcup^{n}_{i=1}A_i \cap A_{n+1}|=|\bigcup^{n}_{i=1}A_i|+|A_{n+1}|-|(\bigcup^{n}_{i=1}A_i\cap A_{n+1})|\\
+\text{I.P. :}\hspace{2em}\sum_{i=1}^{n}|A_i|-\sum^{}_{1\leq i < j \leq n}|A_i \cap A_j|+\sum_{1\leq i < j < m \leq n}|A_i\cap A_j \cap A_m|+\dots+(-1)^{k+1}\sum_{I\subset\{1,\dots ,n\},\\ |I|=k}|\bigcap_{i\epsilon I}A_i|+\dots +(-1)^{n+1}|\bigcap^{n}_{i=1}A_i\\\hspace{9em}+|A_{n+1}|-\sum_{i=1}^{n}|A_i\cap A_{n+1}|+\sum^{}_{1\leq i < j \leq n}|A_i\cap A_j \cap A_{n+1}|+ \dots+(-1)^{k}\sum^{}_{I\subset\{1,\dots,n\}\\ |I|=k-1}|\bigcap_{i\epsilon I}A_i\cap A_{n+1}|+\dots+(-1)^n|\bigcap_{i=1}^n A_i\cap A_{n+1}| 
+%TODO ZAVER
 \]
